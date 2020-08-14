@@ -1,40 +1,36 @@
 import React from "react";
-import Navbar from './NavbarInverse'
-import jmpen from "../Images/JmRectangle.png";
-import jmdrawing from '../Images/JmDrawing.png'
+import Navbar from "./NavbarInverse";
+import profile from "../Images/Profile.jpeg";
 import { useEffect } from "react";
 
-
-
 const About = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   });
 
   return (
-    
     <div>
-<Navbar />
+      <Navbar />
       {/* _______________ */}
-      {/* JM The Creative */}
+      {/* Stephen Burnett */}
       {/* _______________ */}
-      <div className="py-24 lg:grid lg:grid-cols-2 lg:py-32">
+      <div className="pt-24 pb-12 lg:pb-20 lg:grid lg:grid-cols-2 lg:py-32">
         <div className="flex content-center flex-col justify-center px-16 lg:px-24 py-0">
-          <div className="text-4xl pb-4">JM The Creative</div>
+          <div className="text-4xl pb-4">About Me</div>
           <div className="pb-5 lg:pb-0">
-            Jonathan is a Product Designer & Independent Consultant that is
-            passionate about startups and making ideas tangible. Currently based
-            in Orlando, FL. He is originally from NYC. Jonathan enjoys working
-            with clients and teams that operate remote-first. He is Interested
-            in new projects based in NYC, and looking to relocate.
+            I am an inquisitive and diligent software engineer who has over six
+            years of consulting experience. I have a passion for problem solving
+            and learning. Consulting has taught me to live in a growth mindset
+            where I strive to be better everyday. Working as a business analyst
+            at Navitas Billing ignited my enthusiasm for coding and ultimately
+            led me to pursue a career change.
             <br />
             <br />
-            With 5+ years of experience in helping founders to communicate their
-            vision for digital products. Jonathan leverages user-centered design
-            approaches that focus on improving the user journey through a
-            web/mobile app experience with the intention of increasing the
-            quality of the user interaction.
+            Graduate of General Assembly a Software Engineering Immerse program
+            that included over 400 hours of professional training over 12 weeks.
+            Utilized a hands-on approach to design and build full-stack web
+            applications with full CRUD functionality through Javascript, React,
+            Express, SQL, PostgreSQL, HTML, CSS, Ruby, Rails, Sequelize.
             <br />
             <br />
             Jonathan is offering Product Design skills in the form of virtual
@@ -43,27 +39,17 @@ const About = () => {
           </div>
         </div>
         <div className="px-16 lg:px-0 flex justify-center lg:flex-none">
-          <div><img src={jmpen} alt="" /></div>
+          <div>
+            <img className="rounded" src={profile} alt="" />
+          </div>
         </div>
       </div>
       {/* _______________ */}
-      {/*   Personality   */}
+      {/*   RESUME  */}
       {/* _______________ */}
-      <div className="lg:grid lg:grid-cols-2">
-        <div className="flex content-center flex-col justify-center px-24 py-0">
-          <div className="text-4xl pb-4">Personality</div>
-          <div>A few things about Jonathan:</div>
-          <div className="pb-5 lg:pb-0">
-              <li>Loves Reggaeton (urban latin music genre)</li>
-              <li>Future Trunks is his favorite Dragonball Z character</li>
-              <li>He's a hopeless romantic</li>
-              <li>A poet</li>
-              <li>An artist that draws and illustrates in his downtime</li>
-          </div>
-        </div>
-        <div className="flex justify-end">
-          <div><img src={jmdrawing} alt="" /></div>
-        </div>
+      
+      <div className="flex justify-center">
+        <button className="mb-16 call-color p-2 rounded text-white">Download Resume</button>
       </div>
     </div>
   );

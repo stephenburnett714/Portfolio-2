@@ -61,11 +61,6 @@ export default function NavMenu(props) {
                 >
                  <li onClick={() => setOpen(!open)} className="text-black text-2xl">Process</li>
             </NavLink>
-
-            <NavLink to={'/'}
-                >
-                <button onClick={() => setOpen(!open)} className=" call-color p-2 rounded-md text-white text-2xl mt-4">Contact</button>
-            </NavLink>
         </Ul>
     )
 }

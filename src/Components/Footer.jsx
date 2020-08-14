@@ -1,6 +1,7 @@
 import React from "react";
-import jmcircle from "../Images/jmcircle.png";
-import jmlogo from "../Images/jmlogo.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+
 
 const Footer = () => {
   return (
@@ -9,29 +10,22 @@ const Footer = () => {
         <div className="col-span-1 lg:col-span-2"></div>
         <div className="col-span-5 lg:col-span-3">
           <div className="grid-span-5 flex flex-col text-center">
-            <div className="text-4xl lg:text-5xl pb-4">Wanna collab on an idea?</div>
+            <div className="text-4xl lg:text-5xl pb-4">Want to work together?</div>
             <div className="pb-4">
               I enjoy working with startup founders & entreprenuers to
               brainstorm and make better decisions quickly about product design
               and user experiences.
             </div>
             <div className="flex justify-center content-center">
-              <button className="mb-4 call-color p-2 rounded">Book a call</button>
-            </div>
-          </div>
-          <div className="pb-4 flex flex-row justify-center content-center">
-            <div>
-              <img src={jmcircle} alt="" />
-            </div>
-            <div className="pl-3 self-center">
-              working: check calendar for availability
+              <button className="mb-4 call-color p-2 rounded">Contact</button>
             </div>
           </div>
           <div className="flex flex-col text-center">
-            <div className="flex justify-center content-center">
-              <img className="pb-4" src={jmlogo} alt="" />
+            <div className="flex justify-around content-center py-4 md:px-16">
+            <a href="https://www.linkedin.com/in/stephen-burnett/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ color: 'white' }} size="3x"/></a>
+            <a href="https://github.com/stephenburnett714" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} style={{ color: 'white' }} size="3x"/></a>
             </div>
-            <div>Product Designer & Independent Consultant</div>
+            <div>Software Engineer & Independent Consultant</div>
           </div>
         </div>
         <div className="col-span-1 lg:col-span-2"></div>

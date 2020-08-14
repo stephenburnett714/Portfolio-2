@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import NavMenu from './NavMenu'
-import jmlogo from "../Images/jmlogoblack.png";
+import logo from "../Images/Logo-Black.jpg";
 import { NavLink } from "react-router-dom";
 
 const Logo = styled.div`
 opacity: ${({ open }) => open ? '1' : '0'};
 position: fixed;
 z-index: 20;
-left: 24px;
-top: 25px;
-transition: .3s;
+left: 16px;
+top: 16px;
+transition: .5s;
 
 @media screen and (min-width: 1023.1px){
   display: none
@@ -25,6 +25,7 @@ display: flex;
 justify-content: space-around;
 flex-flow: column nowrap;
 z-index: 20;
+top: 16px;
 
 
 div {
@@ -65,7 +66,7 @@ export default function Burger() {
         <div>
         <NavLink exact to={"/"}>
         <Logo open={open}>
-            <div><img src={jmlogo} alt=""/></div>
+            <div><img className="h-10 w-16" src={logo} alt=""/></div>
         </Logo>
         </NavLink>
         </div>

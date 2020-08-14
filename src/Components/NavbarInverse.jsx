@@ -1,18 +1,18 @@
 import React from "react";
 import Burger from "./BurgerInverse";
-import jmlogo from "../Images/jmlogoblack.png";
+import logo from "../Images/Logo-Black.jpg";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div
-    className="flex flex-row align-items-center bg-white p-4 justify-between fixed w-screen"
+    className="flex flex-row align-items-center items-center bg-white p-4 justify-between fixed w-screen"
       id="navbar"
     >
       
       <div className="lg:pl-32">
         <NavLink exact to={"/"}>
-          <img src={jmlogo} alt="logo" />
+          <img className="h-10 w-16" src={logo} alt="logo" />
         </NavLink>
       </div>
 
@@ -30,16 +30,8 @@ export default function Navbar() {
         </div>
 
         <div>
-          <NavLink className="text-black pr-20" exact to={"/process"}>
-            Process
-          </NavLink>
-        </div>
-
-        <div>
-          <NavLink exact to={"/"}>
-            <button className="call-color p-1 rounded-md text-white">
-              Book a call
-            </button>
+          <NavLink className="text-black" exact to={"/contact"}>
+            Contact
           </NavLink>
         </div>
       </div>

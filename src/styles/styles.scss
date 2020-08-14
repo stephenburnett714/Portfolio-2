@@ -12,11 +12,7 @@
 
 ///////////
 // Home
-/////////
-.check-box {
-    height: 18px !important;
-    width: 21px !important;
-}
+//////////
 
 //////////
 // About
@@ -26,6 +22,22 @@
 ///////////
 // Work //
 /////////
+.image-height {
+    max-height: 300px;
+    max-width: 450px;
+}
+
+@media only screen and (min-width: 1025px) {
+    .image-height {
+      height: auto;
+      width: auto;
+    }
+  }
+  .larger-text { transition: all .1s ease-in-out; }
+
+  .larger-text:hover {
+    transform: scale(1.1)
+  }
 
 
 ///////////

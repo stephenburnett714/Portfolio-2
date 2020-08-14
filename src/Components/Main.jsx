@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home'
 import About from './About'
 import Work from './Work'
-import Process from './Process'
+import Contact from './Contact'
 import '../styles/styles.scss'
 import { Route } from 'react-router-dom'
 
@@ -22,8 +22,8 @@ const Main = () => {
                 <Work />
             </Route>
 
-            <Route exact path="/process">
-                <Process />
+            <Route exact path="/contact">
+                <Contact />
             </Route>
         </div>
     );

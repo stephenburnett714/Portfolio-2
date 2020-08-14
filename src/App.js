@@ -1,6 +1,5 @@
 import React from 'react';
-import './styles/tailwind.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 import Footer from './Components/Footer';
 import Main from './Components/Main'
 
