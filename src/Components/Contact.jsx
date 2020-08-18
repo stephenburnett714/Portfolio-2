@@ -32,7 +32,7 @@ const Contact = () => {
                     size="2x"
                   />
                 </span>
-                <span className="text-black">
+                <span className="text-black lg:text-lg">
                   Email: Stephenburnett714@gmail.com
                 </span>
               </a>
@@ -53,7 +53,7 @@ const Contact = () => {
                     size="2x"
                   />
                 </span>
-                <span className="text-black">
+                <span className="text-black lg:text-lg">
                   LinkedIn: Linkedin.com/in/stephen-burnett
                 </span>
               </a>
@@ -74,7 +74,7 @@ const Contact = () => {
                     size="2x"
                   />
                 </span>
-                <span className="text-black">
+                <span className="text-black lg:text-lg">
                   Github: Github.com/stephenburnett714
                 </span>
               </a>

@@ -48,3 +48,16 @@
     height: 75px;
 }
 
+
+.white-hover:hover {
+  text-decoration: none;
+  color: white;
+
+}
+
+.black-hover:hover {
+  color: rgb(5, 78, 151);
+  text-decoration: none;
+  transform: scale(1.1)
+}
+

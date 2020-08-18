@@ -8,8 +8,8 @@ const Logo = styled.div`
 opacity: ${({ open }) => open ? '1' : '0'};
 position: fixed;
 z-index: 20;
-left: 16px;
-top: 16px;
+left: 24px;
+top: 24px;
 transition: .5s;
 
 @media screen and (min-width: 1023.1px){
@@ -25,7 +25,7 @@ display: flex;
 justify-content: space-around;
 flex-flow: column nowrap;
 z-index: 20;
-top: 16px;
+top: 24px;
 
 
 div {

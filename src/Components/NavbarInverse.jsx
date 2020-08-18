@@ -18,19 +18,19 @@ export default function Navbar() {
 
       <div className="flex align-items-center hidden xl:flex xl:flex-row lg:flex lg:flex-row lg:pr-32">
         <div>
-          <NavLink className="text-black pr-20" exact to={"/about"}>
+          <NavLink className="text-black pr-20 black-hover" exact to={"/about"}>
             About
           </NavLink>
         </div>
 
         <div>
-          <NavLink className="text-black pr-20" exact to={"/work"}>
+          <NavLink className="text-black pr-20 black-hover" exact to={"/work"}>
             Work
           </NavLink>
         </div>
 
         <div>
-        <NavLink className="text-black" exact to={"/contact"}>
+        <NavLink className="text-black black-hover" exact to={"/contact"}>
             Contact
           </NavLink>
         </div>

@@ -19,7 +19,8 @@
     "react-scripts": "3.4.1",
     "react-scroll": "^1.8.1",
     "reactstrap": "^8.5.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "surge": "^0.21.6"
   },
   "scripts": {
     "build:css": "postcss src/styles/index.css -o src/index.css",

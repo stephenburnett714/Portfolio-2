@@ -18,11 +18,10 @@ const Home = () => {
         {/* Your “go-to” guy */}
         {/* ________________ */}
         <div className="flex flex-col lg:flex-row bg-black text-white pt-24 pb-10 px-12 lg:py-32 lg:px-32">
-          <div className="md:w-3/5">
+          <div className="md:w-3/5 flex flex-col">
             <div className="text-4xl pb-4 lg:text-6xl">Stephen Burnett</div>
             <div className="text-xl lg:text-2xl pb-4">
-              Helping startup founders to design thoughtful digital products
-              that ensure a high quality user experience.
+            <div >I am a New York based freelancer. I enjoy the prcocess of bringing ideas to reality.</div>
             </div>
           </div>
           <div className="flex justify-center">
