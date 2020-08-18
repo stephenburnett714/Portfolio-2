@@ -30,7 +30,7 @@ export default function Navbar() {
         </div>
 
         <div>
-          <NavLink className="text-black" exact to={"/contact"}>
+        <NavLink className="text-black" exact to={"/contact"}>
             Contact
           </NavLink>
         </div>

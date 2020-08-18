@@ -1,13 +1,9 @@
-import React from "react";
-import jmwink from "../Images/jmwink.png";
-import jmstars from "../Images/jmstars.png";
-import jmexplosion from "../Images/jmexplosion.png";
-import jmthumb from "../Images/jmthumb.png";
+import React, { useEffect } from "react";
+import jmwink from "../Images/stephen-comp.png";
 import Research from "../Images/R&DLarge.png";
 import Development from "../Images/DevelopmentLarge.png";
 import Navbar from "./Navbar";
 import { NavLink } from "react-router-dom";
-import { useEffect } from "react";
 
 const Home = () => {
   useEffect(() => {
@@ -23,16 +19,14 @@ const Home = () => {
         {/* ________________ */}
         <div className="flex flex-col lg:flex-row bg-black text-white pt-24 pb-10 px-12 lg:py-32 lg:px-32">
           <div className="md:w-3/5">
-            <div className="text-4xl pb-4 lg:text-6xl">
-              Stephen Burnett
-            </div>
+            <div className="text-4xl pb-4 lg:text-6xl">Stephen Burnett</div>
             <div className="text-xl lg:text-2xl pb-4">
               Helping startup founders to design thoughtful digital products
               that ensure a high quality user experience.
             </div>
           </div>
           <div className="flex justify-center">
-            <img src={jmwink} alt="" />
+            <img className="w-1/2" src={jmwink} alt="" />
           </div>
         </div>
         {/* ___________________ */}
@@ -41,15 +35,16 @@ const Home = () => {
         <div className="px-12 lg:px-32 pt-24">
           <div className="md:grid md:grid-cols-2">
             <div className="flex flex-col justify-center content-center md:w-4/5">
-              <div className="text-4xl pb-4">The Worker</div>
+              <div className="text-4xl pb-4">Tech Stack</div>
               <div className="text-xl pb-4">
-                1-on-1 engagements with a professional designer that will help
-                you to solve critical problems for you in your business and map
-                out an entire experience for your product launch.
+                My current Tech Stack includes Javascript, React, Express, SQL,
+                PostgreSQL, HTML, CSS, Ruby, Rails and Sequelize. I enjoy
+                front-end engineering. I am currently freelancing while looking
+                for work.
               </div>
               <NavLink exact activeClass="active" to="/work">
-                  <div className="text-blue-500">View Work</div>
-                </NavLink>
+                <div className="text-blue-500">View Work</div>
+              </NavLink>
             </div>
             <div className="flex justify-center md:justify-end pt-4 lg:p-0">
               <div>
@@ -58,7 +53,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
 
         {/* ________________ */}
         {/* Stephen Burnett  */}
@@ -69,11 +63,13 @@ const Home = () => {
               <div>
                 <div className="text-4xl pb-4">The Coder</div>
                 <div className="text-xl pb-4">
-                  With 5+ years of experience in helping founders to communicate
-                  their vision for digital products. Jonathan leverages
-                  user-centered design approaches that focus on improving the
-                  user journey through a web/mobile app experience with the
-                  intention of increasing the quality of the user interaction.
+                  I am an inquisitive and diligent software engineer who has
+                  over six years of consulting experience. I have a passion for
+                  problem solving and learning. Consulting has taught me to live
+                  in a growth mindset where I strive to be better everyday.
+                  Working as a business analyst at Navitas Billing ignited my
+                  enthusiasm for coding and ultimately led me to pursue a career
+                  change.
                 </div>
                 <NavLink exact activeClass="active" to="/about">
                   <div className="text-blue-500">More About Stephen</div>

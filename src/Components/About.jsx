@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./NavbarInverse";
 import profile from "../Images/Profile.jpeg";
-import { useEffect } from "react";
 
 const About = () => {
   useEffect(() => {
@@ -30,17 +29,12 @@ const About = () => {
             that included over 400 hours of professional training over 12 weeks.
             Utilized a hands-on approach to design and build full-stack web
             applications with full CRUD functionality through Javascript, React,
-            Express, SQL, PostgreSQL, HTML, CSS, Ruby, Rails, Sequelize.
-            <br />
-            <br />
-            Jonathan is offering Product Design skills in the form of virtual
-            workshops, collaborative visual design and prototyping to software &
-            consulting companies that want to scale their design capacity.
+            Express, SQL, PostgreSQL, HTML, CSS, Ruby, Rails and Sequelize.
           </div>
         </div>
-        <div className="px-16 lg:px-0 flex justify-center lg:flex-none">
+        <div className="px-16 lg:px-32 flex justify-center items-center lg:flex-none">
           <div>
-            <img className="rounded" src={profile} alt="" />
+            <img className="rounded self-center" src={profile} alt="" />
           </div>
         </div>
       </div>

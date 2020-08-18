@@ -57,9 +57,9 @@ export default function NavMenu(props) {
                 <li onClick={() => setOpen(!open)} className="text-black text-2xl">Work</li>
             </NavLink>
 
-            <NavLink exact to={'/process'}
+            <NavLink exact to={'/contact'}
                 >
-                 <li onClick={() => setOpen(!open)} className="text-black text-2xl">Process</li>
+                 <li onClick={() => setOpen(!open)} className="text-black text-2xl">Contact</li>
             </NavLink>
         </Ul>
     )

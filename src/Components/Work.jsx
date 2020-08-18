@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./NavbarInverse";
-import { useEffect } from "react";
 import { PortfolioData } from "./PortfolioData";
 
 const Work = () => {
@@ -11,16 +10,16 @@ const Work = () => {
   return (
     <div>
       <Navbar />
-      <div className="pt-24 pb-5 px-5 lg:pt-32 lg:px-24 lg:pb-10">
-        <div className="text-5xl">Applications</div>
+      <div className="md:pt-32 lg:px-24 pt-24 px-3 pb-5 ">
+        <div className="text-4xl">Applications</div>
         <div>Examples of recent projects that I've worked on.</div>
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-1 p-4">
           {PortfolioData.map((project, index) => (
             <div>
-              <div className="flex flex-col-reverse lg:flex-row-reverse shadow-lg p-4 rounded-lg m-4 text-center">
+              <div className="flex flex-col-reverse lg:flex-row-reverse shadow-lg p-4 my-4 rounded-lg text-center">
                 <div className="self-center px-4">
-                  <div className="text-4xl pb-2">{project.title}</div>
-                  <div className="pb-2">{project.description}</div>
+                  <div className="text-3xl lg:text-4xl pb-2">{project.title}</div>
+                  <div className="pb-2 text-sm lg:text-base">{project.description}</div>
                   <div className="flex justify-around">
                     <div className="larger-text">
                       <a

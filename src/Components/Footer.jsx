@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
 const Footer = () => {
@@ -12,17 +13,13 @@ const Footer = () => {
           <div className="grid-span-5 flex flex-col text-center">
             <div className="text-4xl lg:text-5xl pb-4">Want to work together?</div>
             <div className="pb-4">
-              I enjoy working with startup founders & entreprenuers to
-              brainstorm and make better decisions quickly about product design
-              and user experiences.
-            </div>
-            <div className="flex justify-center content-center">
-              <button className="mb-4 call-color p-2 rounded">Contact</button>
+              Contact me! Currently looking for new work opportunites. 
             </div>
           </div>
           <div className="flex flex-col text-center">
             <div className="flex justify-around content-center py-4 md:px-16">
             <a href="https://www.linkedin.com/in/stephen-burnett/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ color: 'white' }} size="3x"/></a>
+            <a href="mailto: Stephenburnett714@gmail.com.com"><FontAwesomeIcon icon={faEnvelope} style={{ color: 'white' }} size="3x"/></a>
             <a href="https://github.com/stephenburnett714" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} style={{ color: 'white' }} size="3x"/></a>
             </div>
             <div>Software Engineer & Independent Consultant</div>

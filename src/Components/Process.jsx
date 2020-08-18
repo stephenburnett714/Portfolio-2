@@ -10,7 +10,6 @@ import IdeationLarge from "../Images/IdeationLarge.png";
 import HifiLarge from "../Images/HifiLarge.png";
 import DevelopmentLarge from "../Images/DevelopmentLarge.png";
 import MeasureLarge from "../Images/MeasureLarge.png";
-import { Link } from "react-scroll";
 import { useEffect } from "react";
 
 const Process = () => {

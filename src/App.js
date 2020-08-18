@@ -7,7 +7,7 @@ function App() {
   return (
    <div>
     <Main />
-    <Footer />
+    <Footer id="contact"/>
    </div>
   );
 }
