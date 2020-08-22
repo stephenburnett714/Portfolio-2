@@ -1,14 +1,13 @@
 * {
-    font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue";
 }
 
 ///////////
 // Nav Bar
 //////////
 .call-color {
-    background-color: rgb(70, 148, 243);
+  background-color: rgb(70, 148, 243);
 }
-
 
 ///////////
 // Home
@@ -18,46 +17,65 @@
 // About
 ////////
 
-
 ///////////
 // Work //
 /////////
 .image-height {
-    max-height: 300px;
-    max-width: 450px;
+  max-height: 300px;
+  max-width: 450px;
 }
 
 @media only screen and (min-width: 1025px) {
-    .image-height {
-      height: auto;
-      width: auto;
-    }
+  .image-height {
+    height: auto;
+    width: auto;
   }
-  .larger-text { transition: all .1s ease-in-out; }
+}
+.larger-text {
+  transition: all 0.1s ease-in-out;
+}
 
-  .larger-text:hover {
-    transform: scale(1.1)
-  }
+.larger-text > a {
+}
 
+.larger-text:hover {
+  transform: scale(1.1);
+}
 
 ///////////
 // Process
 //////////
 .process-image-styles {
-    width: 75px;
-    height: 75px;
+  width: 75px;
+  height: 75px;
 }
-
 
 .white-hover:hover {
   text-decoration: none;
   color: white;
-
 }
 
 .black-hover:hover {
   color: rgb(5, 78, 151);
   text-decoration: none;
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
+.half-height {
+  height: 70%;
+  width: 70%;
+}
+
+@media only screen and (min-width: 1250px) {
+  .half-height {
+    height: auto;
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .half-height {
+    height: auto;
+    width: 50%;
+  }
+}

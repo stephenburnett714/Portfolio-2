@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import jmwink from "../Images/stephen-comp.png";
+import sbcomp from "../Images/stephen-comp.png";
 import Research from "../Images/R&DLarge.png";
 import Development from "../Images/DevelopmentLarge.png";
 import Navbar from "./Navbar";
@@ -19,13 +19,16 @@ const Home = () => {
         {/* ________________ */}
         <div className="flex flex-col lg:flex-row bg-black text-white pt-24 pb-10 px-12 lg:py-32 lg:px-32">
           <div className="md:w-3/5 flex flex-col">
-            <div className="text-4xl pb-4 lg:text-6xl">Stephen Burnett</div>
+            <div className="text-4xl pb-4 lg:text-6xl">Software Engineer</div>
             <div className="text-xl lg:text-2xl pb-4">
-            <div >I am a New York based freelancer. I enjoy the prcocess of bringing ideas to reality.</div>
+              <div>
+                My name is Stephen and I am a New York based freelancer. I enjoy
+                the process of bringing ideas to reality.
+              </div>
             </div>
           </div>
           <div className="flex justify-center">
-            <img className="w-1/2" src={jmwink} alt="" />
+            <img className="px-4 half-height" src={sbcomp} alt="" />
           </div>
         </div>
         {/* ___________________ */}
@@ -45,7 +48,7 @@ const Home = () => {
                 <div className="text-blue-500">View Work</div>
               </NavLink>
             </div>
-            <div className="flex justify-center md:justify-end pt-4 lg:p-0">
+            <div className="flex justify-center md:justify-end pt-2">
               <div>
                 <img src={Development} alt="" />
               </div>
@@ -76,7 +79,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="flex justify-center md:justify-end pt-4 lg:p-0">
+            <div className="flex justify-center md:justify-end pt-2 ">
               <img src={Research} alt="" />
             </div>
           </div>

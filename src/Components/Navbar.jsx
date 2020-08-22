@@ -18,6 +18,12 @@ export default function Navbar() {
 
       <div className="flex align-items-center hidden xl:flex xl:flex-row lg:flex lg:flex-row lg:pr-32">
         <div>
+        <NavLink className="text-gray-400 pr-20 white-hover" exact to={"/"}>
+            Home
+          </NavLink>
+        </div>
+
+        <div>
           <NavLink className="text-gray-400 pr-20 white-hover" exact to={"/about"}>
             About
           </NavLink>

@@ -38,9 +38,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* _______________ */}
-      {/*   RESUME  */}
-      {/* _______________ */}
       
       <div className="flex justify-center">
         <button className="mb-16 call-color p-2 rounded text-white">Download Resume</button>
