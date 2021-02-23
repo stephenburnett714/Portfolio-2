@@ -3,8 +3,17 @@ import Budget from '../Images/Car.jpeg'
 import Movie from '../Images/Movie.jpeg'
 import Jeopardy from '../Images/Jeopardy.jpeg'
 import Soromma from '../Images/Soromma.jpeg'
+import Azizi from '../Images/Azizi.jpg'
 
 export const PortfolioData = [
+  {
+    id: 5,
+    title: "Azizi Kids",
+    liveSite: "https://azizikids.com/",
+    image: Azizi,
+    gitHub: "https://github.com/stephenburnett714/AziziOriginal",
+    description: "Created a website for Azizi Kids. Was contracted to create a site based on the clients original site and make it responsive. For this website I used NextJS as a new tool.",
+  },
   {
     id: 4,
     title: "Soromma Technologies",

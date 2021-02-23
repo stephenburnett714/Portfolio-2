@@ -20,8 +20,8 @@ const Work = () => {
                 <div className="self-center px-4">
                   <div className="text-3xl lg:text-4xl pb-2">{project.title}</div>
                   <div className="pb-3 text-sm lg:text-base">{project.description}</div>
-                  <div className="flex justify-around">
-                    <div className="larger-text rounded-full call-color px-2">
+                  <div className="flex justify-around pt-2">
+                    <button className="larger-text rounded-full bg-black px-3 text-lg font-bold">
                       <a
                         href={project.liveSite}
                         target="_blank"
@@ -30,13 +30,13 @@ const Work = () => {
                       >
                         Live Site
                       </a>
-                    </div>
-                    <button className="larger-text rounded-full call-color px-2">
+                    </button>
+                    <button className="larger-text rounded-full bg-black px-3 text-lg font-bold">
                       <a
                         href={project.gitHub}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-white"
+                        className="text-white larger-text"
                       >
                         Github
                       </a>
