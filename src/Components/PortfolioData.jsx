@@ -4,8 +4,17 @@ import Movie from '../Images/Movie.jpeg'
 import Jeopardy from '../Images/Jeopardy.jpeg'
 import Soromma from '../Images/Soromma.jpeg'
 import Azizi from '../Images/Azizi.jpg'
+import Pokedex from '../Images/pokedex.png'
 
 export const PortfolioData = [
+  {
+    id: 6,
+    title: "Pokemon Pokedex",
+    liveSite: "https://pokedex-fns8yd0kx-stephenburnett714.vercel.app/",
+    image: Pokedex,
+    gitHub: "https://github.com/stephenburnett714/Pokedex",
+    description: "Created a pokedex app where you can query and pokemon. Used NextJS + Bootstap and deployed with Vercel. I created a function the let me merge multiple endpoints on 2 databases into a JSON file.",
+  },
   {
     id: 5,
     title: "Azizi Kids",
